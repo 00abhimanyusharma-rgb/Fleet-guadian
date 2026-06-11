@@ -66,8 +66,6 @@ Abhimanyu Sharma :::
 
 This project demonstrates a local implementation of Fleet Guardian.
 
-Due to unavailability of Azure and Splunk Observability Cloud accounts, a local simulation was developed to demonstrate:
-
 - Fleet Monitoring
 - Service Observability
 - Chaos Engineering
@@ -75,3 +73,15 @@ Due to unavailability of Azure and Splunk Observability Cloud accounts, a local 
 - AIOps Concepts
 
 The architecture remains cloud-ready and can be integrated with Azure, Docker, OpenTelemetry, and Splunk Observability Cloud.
+## OpenTelemetry Instrumentation
+
+All Fleet Services are instrumented using OpenTelemetry Flask Instrumentation.
+
+Implemented:
+- Distributed Trace Generation
+- Request Monitoring
+- Service Visibility
+
+Future Integration:
+- OpenTelemetry Collector
+- Splunk Observability Cloud Export
