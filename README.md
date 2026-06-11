@@ -85,3 +85,15 @@ Implemented:
 Future Integration:
 - OpenTelemetry Collector
 - Splunk Observability Cloud Export
+## OpenTelemetry Collector
+
+An OpenTelemetry Collector configuration has been included to demonstrate the observability pipeline.
+
+Pipeline:
+
+Services
+→ OpenTelemetry Instrumentation
+→ OpenTelemetry Collector
+→ Splunk Observability Cloud (Future Integration)
+
+Current implementation exports telemetry to local logging for demonstration purposes.
