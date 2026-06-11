@@ -62,3 +62,16 @@ Splunk Observability Integration
 Automated Alerting
 Author
 Abhimanyu Sharma :::
+## Assignment Notes
+
+This project demonstrates a local implementation of Fleet Guardian.
+
+Due to unavailability of Azure and Splunk Observability Cloud accounts, a local simulation was developed to demonstrate:
+
+- Fleet Monitoring
+- Service Observability
+- Chaos Engineering
+- Incident Investigation
+- AIOps Concepts
+
+The architecture remains cloud-ready and can be integrated with Azure, Docker, OpenTelemetry, and Splunk Observability Cloud.
