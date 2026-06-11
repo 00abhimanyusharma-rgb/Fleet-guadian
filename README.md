@@ -98,3 +98,15 @@ Services
 
 Current implementation exports telemetry to local logging for demonstration purposes.
 Added dashboard documentation
+## Azure Deployment
+
+A cloud-ready Azure deployment architecture has been designed.
+
+Target Azure Services:
+
+- Azure Container Apps
+- Azure Monitor
+- Azure Log Analytics
+- Azure Application Insights
+
+The deployment can be completed when Azure resources become available.
