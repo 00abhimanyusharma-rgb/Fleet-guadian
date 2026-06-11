@@ -1,9 +1,10 @@
 from flask import Flask, jsonify
 import random
 import time
+from opentelemetry.instrumentation.flask import FlaskInstrumentor
 
 app = Flask(__name__)
-
+FlaskInstrumentor().instrument_app(app)
 shipments = [
     {"id": "SHP001", "truck": "TRK001", "status": "in_transit", "origin": "Mumbai", "destination": "Delhi", "delay": False},
     {"id": "SHP002", "truck": "TRK002", "status": "delivered", "origin": "Delhi", "destination": "Pune", "delay": False},
