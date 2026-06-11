@@ -97,3 +97,4 @@ Services
 → Splunk Observability Cloud (Future Integration)
 
 Current implementation exports telemetry to local logging for demonstration purposes.
+Added dashboard documentation
