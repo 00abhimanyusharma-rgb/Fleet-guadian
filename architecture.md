@@ -45,3 +45,16 @@ Analyzes logs and suggests probable root causes.
 - Azure
 - Splunk Observability Cloud
 - Automated Alerting
+- Truck Service
+      |
+Shipment Service
+      |
+Driver Service
+      |
+OpenTelemetry Instrumentation
+      |
+OpenTelemetry Collector
+      |
+Splunk Observability Cloud
+      |
+AIOps Utility
